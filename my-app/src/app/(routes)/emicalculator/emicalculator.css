@@ -1,0 +1,96 @@
+
+.emi-calculator-container{
+    /* margin-top: 130px; */
+    padding-top: 130px;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   padding-bottom: 80px;
+   
+}
+
+.emi-container-1{
+    background-image: linear-gradient(315deg, rgba(0, 0, 0, 0.9) 0%, rgba(41, 44, 57, 0.94) 50%, #000000 100%);
+}
+
+.emi-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.input-container{
+    margin-right: 40px;
+}
+
+.emi-heading{
+    color: white;
+ 
+    padding-bottom: 30px;
+    font-family: 'Lora', serif;
+}
+
+.emi-input-text{
+   color: gold;
+   font-weight: bold;
+}
+
+.MuiSlider-root {
+    color: white !important; /* Set the desired color for the thumb and track (white in this case) */
+  }
+  
+  /* Change the color of the thumb when hovered */
+  .MuiSlider-thumb:hover {
+    background-color: white !important;
+  }
+
+  .MuiSlider-rail.MuiSlider-railActive {
+    background-color: gold !important; /* Set the desired gold color here */
+  }
+
+  .calculated-values-heading{
+    color: gold;
+    font-family: 'Lora', serif;
+    margin-top: 5px;
+  }
+
+  .calculated-emi{
+    color: white;
+    margin-top: 20px;
+  }
+
+  .year-month{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .emi-output{
+    /* border: 1px solid white; */
+    width: 450px;
+    height: 410px;
+    padding: 30px;
+    padding-left: 40px;
+    -webkit-box-shadow: 1px 3px 5px 0px rgba(110,110,110,1);
+    -moz-box-shadow: 1px 3px 5px 0px rgba(110,110,110,1);
+    box-shadow: 1px 3px 5px 0px rgba(110,110,110,1);
+  }
+
+
+  @media(max-width:900px){
+    .emi-content{
+     
+      flex-direction: column;
+  }
+  
+  }
+
+  @media(max-width:500px){
+    .input-slider{
+      /* margin-top: 130px; */
+      
+      margin-left: 50px;
+     
+     
+  }
+  
+  }

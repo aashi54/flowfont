@@ -1,0 +1,101 @@
+/* components/StepsFlowContainer.css */
+.steps-flow-container{
+    /* margin-top: 2rem; */
+    /* background-color: 
+    #f4f4f4; */
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+ 
+  .numberCount-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .numberCount-heading1{
+    color: white;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+  }
+
+  .numberCount-heading2{
+      margin-top: 10px;
+      font-family: 'Varela', sans-serif;
+      color: #e4b94c;
+  font-weight: bold;
+  }
+
+ 
+
+  .count-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 170px;
+    margin-right:170px;
+    margin-top: 50px;
+
+  }
+
+
+
+  .single-card-text{
+    width: 120px;
+ 
+  }
+
+  .colored-card{
+    background-color: #d2cef2;
+  }
+
+  .single-card-text p{
+    font-family: 'Varela', sans-serif;
+    color: white;
+  }
+
+
+  
+  @media(max-width:600px){
+    .count-container{
+   
+      margin-left: 10px;
+      margin-right:10px;
+      margin-top: 50px;
+  
+    }
+
+    .single-card-text p{
+      font-size: 12px;
+      margin-left: 8px;
+    }
+  
+
+   
+  }
+
+  @media(max-width:400px){
+    .count-container{
+   
+      margin-left: 17px;
+      margin-right:17px;
+      margin-top: 50px;
+  
+    }
+
+    .single-card-text p{
+      font-size: 12px;
+      margin-left: 8px;
+    }
+  
+    .numberCount-heading2{
+     font-size: 15px;
+
+
+  }
+
+
+   
+  }

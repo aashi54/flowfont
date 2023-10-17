@@ -1,0 +1,101 @@
+
+
+.salary-grids{
+    display: flex;
+    flex-direction: column;
+}
+
+.emp-type-container{
+    /* background-color: red; */
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.salary-grid{
+    /* border: 2px solid rgb(12, 8, 8); */
+    width: 300px;
+    margin: 10px;
+    margin-top: 0px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding-left: 10px;
+    /* -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75); */
+    border: 1px solid gray;
+    padding: 8px;
+    padding-top: 0px;
+}
+
+.salary-grids{
+
+    margin-top: 15px;
+    /* margin-left: 25px; */
+
+    /* -webkit-box-shadow: 1px 3px 5px 0px rgba(110,110,110,1);
+    -moz-box-shadow: 1px 3px 5px 0px rgba(110,110,110,1);
+    box-shadow: 1px 3px 5px 0px rgba(110,110,110,1); */
+}
+
+
+@media(max-width:400px){
+    .salary-grid{
+        width: 250px;
+    }
+}
+
+
+
+
+/* ResponsiveTypography.css */
+
+/* Default styles for smaller screens */
+.l1-heading {
+    font-size: 25px;
+    margin-left: -50px;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  /* Media query for larger screens */
+  @media (min-width: 768px) {
+    .l1-heading {
+      font-size: 32px;
+      margin-left: -60px;
+      margin-top: 20px;
+    }
+  }
+  
+  /* Media query for even larger screens */
+  @media (min-width: 1024px) {
+    .l1-heading {
+      font-size: 36px;
+      margin-left: -70px;
+      margin-top: 25px;
+    }
+  }
+
+  .j1-btn{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 8px;
+    border: none;
+    color: white;
+   
+    background-color:#b8860b;
+
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'Varela', sans-serif;
+    float: right;
+    margin-left: 230px;
+  }
+
+  .j1-btn:hover{
+    background-color: #996515;
+    /* color: black; */
+    border: 1px solid #daa520;
+  }
+  

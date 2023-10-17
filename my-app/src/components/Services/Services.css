@@ -1,0 +1,28 @@
+
+
+.all-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+@media(max-width:650px){
+    .all-cards{
+    
+      margin-top: -19px;
+        
+    }
+}
+
+
+@media(max-width:450px){
+    .all-cards{
+    
+        margin-left: 2px;
+        margin-right: 2px;
+        
+    }
+}

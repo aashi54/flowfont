@@ -1,0 +1,81 @@
+/* Journey5.css */
+
+/* Container for the form */
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    /* border: 1px solid #ccc;
+    border-radius: 5px; */
+  }
+  
+  /* Style for form group (label and select) */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  /* Style for labels */
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for select inputs */
+  select {
+    padding: 8px;
+    /* border: 1px solid #ccc;
+    border-radius: 5px; */
+  }
+  
+
+  /* button {
+    background-color: gold;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: darkgoldenrod;
+  } */
+  
+
+  .j5-input{
+     font-size: 20px;
+     font-weight: 300;
+  }
+
+  .form-group{
+     margin-bottom: 20px;
+  }
+
+  .j5-btn{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 8px;
+    border: none;
+    color: white;
+   
+    background-color:#b8860b;
+
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'Varela', sans-serif;
+    float: right;
+    margin-left: 110px;
+    /* margin-top: 20px; */
+  }
+
+  .j5-btn:hover{
+    background-color: #996515;
+    border: 1px solid #daa520;
+  }

@@ -1,0 +1,42 @@
+
+
+
+.yearly-income-container{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-field {
+    font-size: 16px;
+    padding: 10px;
+    border: none; 
+    outline: none; 
+  }
+
+  .j2-btn{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 8px;
+    border: none;
+    color: white;
+   
+    background-color:#b8860b;
+
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'Varela', sans-serif;
+    float: right;
+    margin-left: 110px;
+    margin-top: 20px;
+  }
+
+  .j2-btn:hover{
+    
+    background-color: #996515;
+    border: 1px solid #daa520;
+  
+  
+  }

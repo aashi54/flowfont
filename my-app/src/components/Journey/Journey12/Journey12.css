@@ -1,0 +1,30 @@
+
+
+
+.j12-btn{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 8px;
+    border: none;
+    color: white;
+   
+    background-color:#b8860b;
+
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'Varela', sans-serif;
+    float: right;
+    margin-right: 40px;
+}
+
+.j12-btn:hover{
+    background-color: #996515;
+    /* color: black; */
+    border: 1px solid #daa520;
+  }
+
+
+  .j12-label{
+    font-weight: 350;
+    
+  }

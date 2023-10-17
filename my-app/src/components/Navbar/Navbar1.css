@@ -1,0 +1,102 @@
+/* components/HamburgerNavbar.module.css */
+.navbar1 {
+    /* background-color: #333; */
+    background-color: white;
+    position: relative;
+    overflow: visible;
+    z-index: 1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    color: #333;
+  }
+  
+  .hamburger {
+    cursor: pointer;
+    padding: 10px;
+    color: #333;
+  }
+  
+  .hamburger.active .bar {
+    /* background-color: transparent; */
+    color: white;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    /* background-color: #fff; */
+    background-color: #333;
+    margin: 4px 0;
+    transition: background-color 0.2s;
+  }
+
+  .logo-src1{
+    width: 120px;
+    height: 50px;
+    margin-left: 1rem;
+    margin-top: 0rem;
+}
+
+
+  .nav-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .nav-links1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #ffffff;
+    padding: 20px;
+    z-index: 0;
+    width: 100%;
+    -webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+    
+  }
+  
+  .nav-links1.active {
+    display: block;
+  }
+  
+  .nav-links1 a {
+    text-decoration: none;
+    /* color: #fff; */
+    padding: 15px;
+    display: block;
+    color: black;
+  }
+  
+  .nav-links1 a:hover {
+    background-color: #444;
+  }
+  
+
+  .sub-links {
+    display: none;
+    background-color: #444;
+    padding: 10px 20px;
+  }
+  
+  .nav-links1 a:hover + .sub-links {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 1;
+  }
+  
+  .sub-links a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #222;
+  }
+  
+  .sub-links a:last-child {
+    border-bottom: none;
+  }

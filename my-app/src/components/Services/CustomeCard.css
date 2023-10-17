@@ -1,0 +1,100 @@
+
+.service-card-container{
+    width: 550px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+/* background-color: #3a3a3a91; */
+background-color: white;
+color: #b8860b;
+border: 1px solid white;
+
+
+}
+
+.service-card-container:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    -webkit-box-shadow: 0px 6px 11px 0px rgba(0,0,0,0.33);
+-moz-box-shadow: 0px 6px 11px 0px rgba(0,0,0,0.33);
+box-shadow: 0px 6px 11px 0px rgba(0,0,0,0.33);
+}
+
+
+
+@keyframes slide-up {
+    from {
+      transform: translateY(100%); /* Start from below the viewport */
+    }
+    to {
+      transform: translateY(0); /* End at its normal position */
+    }
+  }
+
+
+.pb-product{
+    display: flex;
+    flex-direction: row;
+}
+
+.product-desc{
+    font-size: 14px;
+    /* font-family: 'Varela', sans-serif; */
+    /* font-family: 'Arvo', serif; */
+    font-family: 'Poppins', sans-serif;
+    color:black
+   
+}
+
+.product-icon{
+    height: 60px;
+    width: 60px;
+}
+
+.product-name{
+  font-family: 'Varela', sans-serif;
+  font-size: 16px;
+}
+
+@media(max-width:500px){
+  .service-card-container{
+    width: 400px;
+    height: 150px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+
+
+}
+
+
+}
+
+@media(max-width:700px){
+  .service-card-container{
+    width: 450px;
+    height: 150px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+
+
+}
+
+
+}
+
+@media(max-width:550px){
+  .service-card-container{
+    width: 320px;
+    height: 150px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+
+
+}
+
+
+}
+

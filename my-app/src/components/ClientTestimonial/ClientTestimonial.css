@@ -1,0 +1,22 @@
+
+.client-testimonial-1{
+    /* margin-top: 70px; */
+    margin-bottom: 50px;
+    padding-top: 70px;
+  
+}
+
+.testimonial-content{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    max-height: 130px; 
+
+   
+}
+
+.testimonial-text{
+    color: white;
+}

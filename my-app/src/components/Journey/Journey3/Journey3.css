@@ -1,0 +1,90 @@
+/* Journey3.css */
+
+/* Remove border from input field */
+input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #ccc; /* Add a bottom border for better visual separation */
+    padding: 5px;
+    margin-top: 5px;
+    outline: none; /* Remove the input outline on focus */
+  }
+  
+  /* Reduce the size of the error message and give it a red color */
+  .error-message {
+    color: red;
+    font-size: 14px; /* Adjust the font size as needed */
+    margin-top: 5px;
+  }
+  
+  /* Style for the search input field */
+  input[type="text"].search-input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the radio button label */
+  .bank-grid label {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style for the radio button icon and text */
+  .bank-grid .MuiRadio-root {
+    margin-right: 5px;
+  }
+  
+ 
+  /* button {
+    background-color: gold;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  button:hover {
+    background-color: darkgoldenrod;
+  } */
+  
+
+  .no-banks-found {
+    margin: 10px; /* Add margin around the message */
+    padding: 10px; /* Add padding to the message */
+    background-color: #f5f5f5; /* Background color for better visibility */
+    border: 1px solid #ccc; /* Add a border for visual separation */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    color: #666; /* Text color */
+    text-align: center; /* Center-align the text */
+  }
+
+  .j3-btn{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 8px;
+    border: none;
+    color: white;
+   
+    background-color:#b8860b;
+
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'Varela', sans-serif;
+    float: right;
+    margin-left: 110px;
+    margin-top: 20px;
+  }
+
+  .j3-btn:hover{
+    background-color: #996515;
+    border: 1px solid #daa520;
+  
+  }
+
+  .j3-search{
+    height: 35px;
+  }

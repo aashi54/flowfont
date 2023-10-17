@@ -1,0 +1,93 @@
+/* Journey6.css */
+
+/* Container for the form */
+.formContainer6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    /* border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  
+  /* Heading style */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for residence type options */
+  .residenceTypes {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style for each radio option */
+  .radioContainer6 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for radio input */
+  .radioContainer6 input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  /* Style for radio labels */
+  .radioContainer6 label {
+    font-size: 16px;
+  }
+  
+  /* Error message style */
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+ 
+  /* .nextButton {
+    background-color: gold;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .nextButton:hover {
+    background-color: darkgoldenrod;
+  } */
+  
+
+  .j6-label{
+    font-weight: 300;
+  }
+
+  .j6-btn{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 8px;
+    border: none;
+    color: white;
+   
+    background-color:#b8860b;
+
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'Varela', sans-serif;
+    float: right;
+    margin-left: 110px;
+  }
+
+  .j6-btn:hover{
+    background-color: #996515;
+    border: 1px solid #daa520;
+  }

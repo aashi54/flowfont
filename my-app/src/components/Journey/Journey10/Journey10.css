@@ -1,0 +1,44 @@
+
+
+.j10-label{
+    font-weight: 300;
+}
+
+.j10-btn{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 8px;
+    border: none;
+    color: white;
+   
+    background-color:#b8860b;
+
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'Varela', sans-serif;
+    float: right;
+}
+
+.j10-btn:hover{
+    background-color: #996515;
+    /* color: black; */
+    border: 1px solid #daa520;
+  }
+
+
+  .input-container{
+    margin-top: 20px;
+  }
+
+
+  input {
+    border: none;
+    border-bottom: 1px solid #ccc; /* Add a bottom border for better visual separation */
+    padding: 5px;
+    margin-top: 5px;
+    outline: none; /* Remove the input outline on focus */
+  }
+  
+  .name-input{
+    height: 40px;
+  }

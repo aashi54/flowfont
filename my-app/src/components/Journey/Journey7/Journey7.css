@@ -1,0 +1,31 @@
+
+
+.inputField7{
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+
+.j7-btn{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 8px;
+    border: none;
+    color: white;
+   
+    background-color:#b8860b;
+
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'Varela', sans-serif;
+    float: right;
+    /* margin-left: 60px; */
+    margin-top: 10px;
+}
+
+.j7-btn:hover{
+    background-color: #996515;
+    border: 1px solid #daa520;
+}
