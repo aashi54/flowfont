@@ -15,34 +15,34 @@ const HomePage = () => {
 
   const testimonials = [
     {
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet.",
+      text: "I needed a loan to expand my business, and PaisaFlow Loans made it easy and hassle-free. The application process was straightforward, and the team was incredibly supportive. I highly recommend PaisaFlow Loans!",
       rating: 4.5,
-      clientName: "John Doe",
-      clientImage: "https://i.postimg.cc/DwKj9Q7J/user1.jpg",
+      clientName: "Vikram Tiwari",
+      clientImage: "https://images.unsplash.com/photo-1512484776495-a09d92e87c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8MTcyOTI1OHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
     },
     {
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      text: "Getting a home improvement loan from PaisaFlow Lending was a breeze. Their competitive interest rates and flexible repayment options allowed me to renovate my home without any financial stress. I'm thrilled with their service!",
       rating: 4.3,
-      clientName: "John Doe",
-      clientImage: "https://i.postimg.cc/DwKj9Q7J/user1.jpg",
+      clientName: "Shreya Joshi",
+      clientImage: "https://images.unsplash.com/photo-1517677129300-07b130802f46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHwxNzI5MjU4fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
     },
     {
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      text: "Thanks to PaisaFlow, I was able to secure an education loan with low interest rates. It helped me cover my tuition and living expenses while pursuing my degree.PaisaFlow made my dreams of higher education come true!",
       rating: 4.5,
-      clientName: "John Doe",
-      clientImage: "https://i.postimg.cc/DwKj9Q7J/user1.jpg",
+      clientName: "Deepak Sharma",
+      clientImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxNzI5MjU4fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
     },
     {
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      text: "As a freelancer, I was worried about my variable income.PaisaFlow personal loan gave me the financial stability I needed. Their quick approval process and friendly staff were a pleasant surprise.",
       rating: 4,
-      clientName: "John Doe",
-      clientImage: "https://i.postimg.cc/DwKj9Q7J/user1.jpg",
+      clientName: "Simran Reddy",
+      clientImage: "https://plus.unsplash.com/premium_photo-1664203068145-b1d7d1680f6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGZhY2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
     },
     {
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      text: "PaisaFlow helped me enjoy my retirement by offering a pensioner loan with excellent terms. I'm now able to travel and pursue my hobbies worry-free. Thanks, PaisaFlow!",
       rating: 4.5,
-      clientName: "John Doe",
-      clientImage: "https://i.postimg.cc/DwKj9Q7J/user1.jpg",
+      clientName: "Arjun Patel",
+      clientImage: "https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmFjZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
     },
   ];
       

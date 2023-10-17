@@ -53,7 +53,7 @@ const Journey6 = ({ onNext, onData }: { onNext: () => void; onData: (data: any) 
       </div>
       {error && <p className="error">{error}</p>}
       <button onClick={handleNext} className="j6-btn">
-        Next
+        Submit
       </button>
     </div>
   );
