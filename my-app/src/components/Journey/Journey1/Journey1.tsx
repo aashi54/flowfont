@@ -7,7 +7,6 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import { useMediaQuery } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid';
 import './Journey1.css'
-import * as Yup from 'yup';
 
 const useStyles = makeStyles((theme) => ({
     paper: {
