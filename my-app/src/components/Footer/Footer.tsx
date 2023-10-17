@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
               About Us
             </Typography>
             <Typography variant="body2" color="textSecondary" style={styles}>
-            At  PaisaFlow, we're dedicated to providing you with tailored financial solutions that empower your dreams. With a commitment to transparency, competitive rates, and a hassle-free application process, we're your trusted partner in achieving your financial goals
+            At  PaisaFlow, we&apos;re dedicated to providing you with tailored financial solutions that empower your dreams. With a commitment to transparency, competitive rates, and a hassle-free application process, we&apos;re your trusted partner in achieving your financial goals
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={3}>

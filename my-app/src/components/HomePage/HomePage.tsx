@@ -21,7 +21,7 @@ const HomePage = () => {
       clientImage: "https://images.unsplash.com/photo-1512484776495-a09d92e87c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8MTcyOTI1OHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
     },
     {
-      text: "Getting a home improvement loan from PaisaFlow Lending was a breeze. Their competitive interest rates and flexible repayment options allowed me to renovate my home without any financial stress. I'm thrilled with their service!",
+      text: "Getting a home improvement loan from PaisaFlow Lending was a breeze. Their competitive interest rates and flexible repayment options allowed me to renovate my home without any financial stress. I am thrilled with their service!",
       rating: 4.3,
       clientName: "Shreya Joshi",
       clientImage: "https://images.unsplash.com/photo-1517677129300-07b130802f46?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHwxNzI5MjU4fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
@@ -39,7 +39,7 @@ const HomePage = () => {
       clientImage: "https://plus.unsplash.com/premium_photo-1664203068145-b1d7d1680f6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGZhY2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
     },
     {
-      text: "PaisaFlow helped me enjoy my retirement by offering a pensioner loan with excellent terms. I'm now able to travel and pursue my hobbies worry-free. Thanks, PaisaFlow!",
+      text: "PaisaFlow helped me enjoy my retirement by offering a pensioner loan with excellent terms. I am now able to travel and pursue my hobbies worry-free. Thanks, PaisaFlow!",
       rating: 4.5,
       clientName: "Arjun Patel",
       clientImage: "https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmFjZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
