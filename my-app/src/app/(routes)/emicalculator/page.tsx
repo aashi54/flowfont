@@ -119,8 +119,8 @@ const Page = () => {
         <FormControl>
           <Typography gutterBottom className='emi-input-text'>Loan Tenure</Typography>
           <div className='year-month'>
-          <FormControlLabel value="months" control={<Radio />} label="Months" />
-            <FormControlLabel value="years" control={<Radio />} label="Years" />
+          <FormControlLabel value="months" control={<Radio className='my-label' />} label="Months" className='my-label'/>
+            <FormControlLabel value="years" control={<Radio className='my-label'/>} label="Years" className='my-label' />
             </div>
           <TextField
             value={loanTenure}
